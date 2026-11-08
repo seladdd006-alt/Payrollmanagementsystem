@@ -9,7 +9,7 @@ public class PayrollSystem {
         List<Employee> employees = new ArrayList<>();
 
         employees.add(new FullTimeEmployee(
-                "E01", "Ahmed", 3000,
+                "E01", "mohamed", 3000,
                 LocalDate.of(2022, 1, 10), 500));
 
         employees.add(new FullTimeEmployee(
@@ -17,7 +17,7 @@ public class PayrollSystem {
                 LocalDate.of(2020, 5, 15), 700));
 
         employees.add(new ContractorEmployee(
-                "E03", "Ali",
+                "E03", "maha",
                 LocalDate.of(2023, 3, 20), 20, 100));
 
         employees.add(new ContractorEmployee(
